@@ -1,28 +1,28 @@
 # WebAPISample
 
 ```
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.webapisample"&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.webapisample">
 
-    &lt;uses-permission android:name="android.permission.INTERNET" /&gt;
+    <uses-permission android:name="android.permission.INTERNET" />
 
-    &lt;application
+    <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
-            android:usesCleartextTraffic="true"&gt;
-        &lt;activity android:name=".MainActivity"&gt;
-            &lt;intent-filter&gt;
-                &lt;action android:name="android.intent.action.MAIN"/&gt;
+            android:usesCleartextTraffic="true">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
 
-                &lt;category android:name="android.intent.category.LAUNCHER"/&gt;
-            &lt;/intent-filter&gt;
-        &lt;/activity&gt;
-    &lt;/application&gt;
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
 
-&lt;/manifest&gt;
+</manifest>
 ```
